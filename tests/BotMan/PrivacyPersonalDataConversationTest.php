@@ -14,7 +14,7 @@ class PrivacyPersonalDataConversationTest extends TestCase
     public function test_no_subscriber_given()
     {
         $this->bot->receives('privacy.personaldata')
-            ->assertReply('We haven\'t stored any personal data of you, because you are currently not subscribed to notifications. If you subscribe, we will store only your name and chat ID.');
+            ->assertReply('We haven\'t stored any personal data of yours, because you are currently not subscribed to notifications. If you subscribe, we will store only your name and chat ID.');
     }
 
     public function test_subscriber_given()

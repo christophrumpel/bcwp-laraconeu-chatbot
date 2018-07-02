@@ -51,7 +51,7 @@ class OnboardingConversationTest extends TestCase
 
     private function getSubscriptionQuestion()
     {
-        return Question::create('I am also able to send you important notifications about new speakers or schedule changes during the conference. To make that possible I need to store your chat ID and your first name. Are you fine with that? (You can change that at any time)')
+        return Question::create('I am also able to send you important notifications about new speakers or schedule changes during the conference. To make that possible I need to store your chat ID and your first name. Are you fine with that? (You can change your answer at any time.)')
             ->addButtons([
                 Button::create('Yes please')->value('yes'),
                 Button::create('Nope')->value('no'),
