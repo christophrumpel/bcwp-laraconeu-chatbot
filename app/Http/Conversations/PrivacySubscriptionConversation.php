@@ -48,8 +48,8 @@ class PrivacySubscriptionConversation extends BaseConversation
 
                     return $this->say('Awesome! We will keep you updated with the latest news about Laracon EU.');
                 default:
-
                     $this->say('I am not sure what you meant. Can you try again?');
+
                     return $this->repeat();
             }
         });

@@ -8,7 +8,8 @@ use BotMan\BotMan\Messages\Outgoing\Question;
 use BotMan\BotMan\Messages\Outgoing\Actions\Button;
 use BotMan\BotMan\Messages\Conversations\Conversation;
 
-class OnboardingConversation extends Conversation {
+class OnboardingConversation extends Conversation
+{
 
     public function run()
     {
