@@ -2,8 +2,8 @@
 
 namespace Tests\BotMan;
 
-use BotMan\Drivers\Facebook\FacebookDriver;
 use Tests\TestCase;
+use BotMan\Drivers\Facebook\FacebookDriver;
 use BotMan\Drivers\Telegram\TelegramDriver;
 use BotMan\Drivers\Facebook\Extensions\Element;
 use BotMan\BotMan\Messages\Attachments\Location;

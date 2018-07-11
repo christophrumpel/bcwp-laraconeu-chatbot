@@ -2,8 +2,8 @@
 
 namespace Tests\BotMan;
 
-use App\Subscriber;
 use Tests\TestCase;
+use App\Subscriber;
 use Illuminate\Foundation\Testing\DatabaseMigrations;
 
 class PrivacyPersonalDataConversationTest extends TestCase
